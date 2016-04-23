@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [23/Apr/2016:20:15:19 +0800] "GET /server-example/hello HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [23/Apr/2016:20:15:19 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [23/Apr/2016:20:18:27 +0800] "GET /server-example/hello HTTP/1.1" 200 13 http-bio-8080-exec-1 50
+0:0:0:0:0:0:0:1 - - [23/Apr/2016:20:18:27 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+127.0.0.1 - - [23/Apr/2016:20:19:47 +0800] "GET /announce?info_hash=y%12%3B%E0%EC%9F%06%BCN%20%5F%9Du%28%8F%607%12%CCB&peer_id=%2DSD0100%2D%28%D6%E2%C3%A6%60l%D1%22Y%27%2B&ip=100.64.60.136&port=11975&uploaded=2443182080&downloaded=2443182080&left=2875195392&numwant=200&key=13850&compact=1 HTTP/1.0" 404 - http-bio-8080-exec-4 0
+127.0.0.1 - - [23/Apr/2016:20:19:50 +0800] "GET /announce.php?info_hash=y%12%3B%E0%EC%9F%06%BCN%20%5F%9Du%28%8F%607%12%CCB&peer_id=%2DSD0100%2D%28%D6%E2%C3%A6%60l%D1%22Y%27%2B&ip=100.64.60.136&port=11975&uploaded=2443182080&downloaded=2443182080&left=2875195392&numwant=200&key=21365&compact=1 HTTP/1.0" 404 - http-bio-8080-exec-5 0
