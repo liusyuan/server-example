@@ -11,4 +11,13 @@
 		<servlet-name>TestServlet</servlet-name>
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
+		<!-- get/post method servlet -->
+	<servlet>
+		<servlet-name>GetPostServlet</servlet-name>
+		<servlet-class>com.netease.server.example.web.controller.GetPostServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetPostServlet</servlet-name>
+		<url-pattern>/servlet/GetPostServlet</url-pattern>
+	</servlet-mapping>
 </web-app>
